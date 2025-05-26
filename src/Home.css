@@ -1,0 +1,74 @@
+/* Home.css */
+.home-container {
+  min-height: 100vh;
+  padding: 3rem;
+  background: linear-gradient(180deg, #dfe9f3, #ffffff);
+  font-family: 'Poppins', sans-serif;
+  color: #2c2c2c;
+}
+
+.home-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #3F3381;
+  margin-bottom: 2rem;
+}
+
+.link-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #CBA2EA, #91D2F4);
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+.link-list li a:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+.link-list li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #CBA2EA, #91D2F4);
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.link-list li a:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 12px #91D2F4;
+}
+
+.link-list li a::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(120deg, #91D2F4, #CBA2EA, #91D2F4);
+  border-radius: 50px;
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: -1;
+}
+
+.link-list li a:hover::before {
+  opacity: 1;
+}

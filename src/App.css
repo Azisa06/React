@@ -1,3 +1,11 @@
+.home-container {
+  min-height: 100vh;
+  padding: 3rem;
+  background: linear-gradient(180deg, #dfe9f3, #ffffff);
+  font-family: 'Poppins', sans-serif;
+  color: #2c2c2c;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.default body {
+  background: linear-gradient(180deg, #101C29 0%, #1D1F5A 100%);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home body {
+  background: #fff;
+  color: #000;
 }

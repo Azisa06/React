@@ -1,0 +1,31 @@
+.semana2-page {
+  min-height: 100vh;
+  padding: 3rem;
+  background: linear-gradient(to bottom right, #91D2F4, #ffffff);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #101C29;
+}
+
+.semana2-page h2 {
+  font-size: 2.5rem;
+  color: #3F3381;
+  margin-bottom: 2rem;
+}
+
+.btn-voltar2 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(90deg, #CBA2EA, #91D2F4);
+  color: #101C29;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 2rem;
+  transition: 0.3s ease;
+}
+
+.btn-voltar2:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
