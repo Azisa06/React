@@ -1,0 +1,56 @@
+.reading-section {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.reading-columns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.reading-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  padding: 2rem;
+  width: 300px;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  text-align: left;
+}
+
+.reading-card h3 {
+  color: #91D2F4;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.reading-card p {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.reading-button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #CBA2EA, #91D2F4);
+  color: #101C29;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  justify-content: center;
+}
+
+.reading-buttons {
+  display: flex;
+  gap: 1rem; /* <-- Este é o espaçamento entre os botões */
+  justify-content: center;
+}
+
+.reading-button:hover {
+  background: linear-gradient(90deg, #91D2F4, #CBA2EA);
+}

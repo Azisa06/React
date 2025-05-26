@@ -1,0 +1,115 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #101C29;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #91D2F4;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #91D2F4;
+}
+
+a {
+  color: #91D2F4;
+  text-decoration: none;
+}
+body {
+  background: linear-gradient(180deg, #101C29 0%, #1D1F5A 100%);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  color: #CBA2EA;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 220px;
+  padding: 2rem;
+}
+
+/* Avatar */
+.avatar {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  text-align: center;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+}
+
+.avatar img {
+  border-radius: 50%;
+  border: 2px solid #3F3381;
+}
+
+/* Cards */
+.book-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 220px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.book-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Galeria de livros */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Reading List */
+.reading-board .column {
+  background-color: #1D1F5A;
+  color: #ffffff;
+}
+
+.book-card-mini {
+  background-color: #0A1C3D;
+  border-left: 4px solid #2868C6;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.book-card-mini:hover {
+  background-color: #3F3381;
+}

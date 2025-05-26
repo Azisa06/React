@@ -1,0 +1,34 @@
+.character-section {
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.character-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.character-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 280px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  text-align: left;
+  color: #fff;
+}
+
+.character-card h3 {
+  color: #91D2F4;
+  margin-bottom: 0.5rem;
+}
+
+.character-card p {
+  font-size: 0.95rem;
+  color: #ddd;
+}
