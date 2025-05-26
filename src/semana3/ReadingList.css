@@ -47,7 +47,7 @@
 
 .reading-buttons {
   display: flex;
-  gap: 1rem; /* <-- Este é o espaçamento entre os botões */
+  gap: 1rem;
   justify-content: center;
 }
 

@@ -33,6 +33,6 @@ export const books = [
     title: "Corte de Chamas Prateadas (Vol. 5)",
     author: "Sarah J. Maas",
     cover: "https://m.media-amazon.com/images/I/71Q-XuO1zQL._SY425_.jpg",
-    description: "Nestha, marcada por traumas e arrependimentos, vive isolada na Corte Noturna após a guerra. Cassian, guerreiro leal, é o único que a desafia emocionalmente. Quando uma nova ameaça surge com uma aliança entre rainhas humanas, os dois precisam enfrentar seus passados e unir forças para impedir outra guerra."
+    description: "Nestha, marcada por traumas e arrependimentos, vive isolada na Corte Noturna após a guerra. Cassian, guerreiro leal, é o único que a desafia emocionalmente."
   }
 ];

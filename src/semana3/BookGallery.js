@@ -4,7 +4,7 @@ import BookCard from './BookCard';
 export default function BookGallery() {
   return (
     <section>
-      <h1>Livros</h1>
+      <h1>Livros da Série ACOTAR</h1>
       <div className="gallery">
         {books.map((book) => (
           <BookCard

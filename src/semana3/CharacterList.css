@@ -23,6 +23,15 @@
   color: #fff;
 }
 
+.character-card img.character-image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+
 .character-card h3 {
   color: #91D2F4;
   margin-bottom: 0.5rem;
