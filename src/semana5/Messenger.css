@@ -1,0 +1,8 @@
+.semana5-messenger-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}

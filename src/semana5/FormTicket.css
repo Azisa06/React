@@ -1,0 +1,39 @@
+.semana5-ticket-container {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.semana5-ticket-title {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.semana5-ticket-label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.semana5-ticket-input {
+  width: calc(100% - 20px); /* Ajuste para padding */
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.semana5-ticket-info {
+  margin-top: 25px;
+  font-size: 1.2em;
+  text-align: center;
+  color: #333;
+}
+
+.semana5-ticket-fullname {
+  color: #007bff;
+}

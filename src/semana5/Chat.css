@@ -1,0 +1,32 @@
+.semana5-chat {
+  flex-grow: 1; /* Permite que o chat ocupe o espaço restante */
+  display: flex;
+  flex-direction: column;
+}
+
+.semana5-chat-textarea {
+  flex-grow: 1; /* Faz com que o textarea ocupe o máximo de espaço */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  resize: vertical; /* Permite redimensionar verticalmente */
+  min-height: 120px; /* Altura mínima para o textarea */
+}
+
+.semana5-chat-button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  align-self: flex-end; /* Alinha o botão à direita */
+  transition: background-color 0.3s ease;
+}
+
+.semana5-chat-button:hover {
+  background-color: #218838;
+}

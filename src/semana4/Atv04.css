@@ -1,0 +1,68 @@
+/*  (Montserrat, Open Sans) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+:root {
+  --semana4-primary-text-color: #333;
+  --semana4-secondary-text-color: #666;
+  --semana4-light-grey-bg: #f8f8f8;
+  --semana4-dark-grey-bg: #e0e0e0;
+  --semana4-card-background: #fff;
+
+  --semana4-button-bg: #808080;
+  --semana4-button-text: #fff;
+  --semana4-button-next-bg: #4a6c8e;
+  --semana4-button-details-bg: #6c757d;
+  --semana4-button-previous-bg: #8c8c8c;
+
+  --semana4-toolbar-bg: #f0f0f0; 
+  --semana4-toolbar-btn-bg: #007bff; 
+  --semana4-toolbar-btn-text: #fff; 
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--semana4-light-grey-bg);
+  color: var(--semana4-primary-text-color);
+  
+  min-height: 100vh;
+  padding: 0; 
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+.semana4-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: flex-start; 
+  width: 100%;
+  padding-left: 240px; 
+  box-sizing: border-box;
+}
+
+.semana4-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin: 5px;
+  color: var(--semana4-button-text);
+}
+
+.semana4-btn-details { background-color: var(--semana4-button-details-bg); }
+.semana4-btn-details:hover { background-color: #5a6268; }
+
+.semana4-btn-next { background-color: var(--semana4-button-next-bg); }
+.semana4-btn-next:hover { background-color: #3a5c7e; }
+
+.semana4-btn-previous { background-color: var(--semana4-button-previous-bg); }
+.semana4-btn-previous:hover { background-color: #7a7a7a; }

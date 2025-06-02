@@ -1,0 +1,77 @@
+.semana5-quiz-container {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.semana5-quiz-container.semana5-quiz-success {
+  background-color: #d4edda;
+  color: #155724;
+  text-align: center;
+}
+
+.semana5-quiz-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.semana5-quiz-question {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.semana5-quiz-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.semana5-quiz-textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  min-height: 80px;
+  resize: vertical;
+}
+
+.semana5-quiz-textarea:disabled {
+  background-color: #e9ecef;
+}
+
+.semana5-quiz-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.semana5-quiz-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.semana5-quiz-button:disabled {
+  background-color: #a0c9f1;
+  cursor: not-allowed;
+}
+
+.semana5-quiz-error {
+  color: #dc3545;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.semana5-quiz-message {
+  font-size: 1.2em;
+  font-weight: bold;
+}

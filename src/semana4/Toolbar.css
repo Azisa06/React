@@ -1,0 +1,65 @@
+/* Toolbar.css */
+
+.semana4-toolbar {
+  display: flex;
+  flex-direction: column; /* Coluna para layout vertical */
+  justify-content: flex-start; /* Alinha os itens ao topo */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  gap: 5px; /* Espaço entre os botões */
+  padding: 15px; /* Padding interno */
+  background-color: var(--semana4-card-background); /* Fundo branco como na imagem */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  position: fixed; /* Fixa o elemento na tela */
+  top: 20px; /* Distância do topo */
+  left: 20px; /* Distância da esquerda */
+  z-index: 1000;
+  height: auto;
+  max-height: calc(100vh - 40px);
+  width: 200px;
+  overflow-y: auto;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--semana4-primary-text-color);
+}
+
+.semana4-toolbar-title {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--semana4-primary-text-color);
+  width: 100%;
+  text-align: left;
+}
+
+.semana4-toolbar-filter-option {
+  background: none;
+  border: none;
+  padding: 8px 0;
+  font-size: 0.9em;
+  color: var(--semana4-secondary-text-color);
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.semana4-toolbar-filter-option:hover {
+  color: var(--semana4-primary-text-color);
+}
+
+
+.semana4-toolbar-filter-option-active {
+  color: var(--semana4-toolbar-btn-bg);
+  font-weight: 600;
+  position: relative;
+}
+
+.semana4-toolbar-filter-option-active::before {
+  content: '•';
+  position: absolute;
+  left: -15px;
+  color: var(--semana4-toolbar-btn-bg);
+  font-size: 1.2em;
+  line-height: 1;
+}
