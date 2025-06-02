@@ -29,8 +29,7 @@ body {
   
   min-height: 100vh;
   padding: 0; 
-  box-sizing: border-box;
-  overflow: hidden; 
+  box-sizing: border-box; 
 }
 
 .semana4-content-wrapper {
